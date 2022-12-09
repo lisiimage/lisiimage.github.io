@@ -13,11 +13,11 @@
 1. 使用Nintendo Switch测试NAT类型会得到A；使用Xbox测试NAT类型会得到Open
 
 > 注意：
->>1. 这种方法只会改善NAT类型，但并不会改善网络延迟和质量（Xbox网络检测建议网络延迟在60ms以下）
->>1. 可能是由于SSR Plus+中的某种bug，即使指定了数据包编码类型为xudp(xray-core)，SSR Plus+也不会使用xray-core执行VLESS 【待确认】，只会使用v2ray。所以只能手动将v2ray二进制可执行文件替换为xray
->>1. 此种方法应该不局限于VLESS+XTLS（在xRay中支持的其他协议未测试是否可以进行UDP转发来改善NAT类型）
->>1. 关于`代理协议 UDP 全方位透彻解析`请参阅xRay大佬RPRX[力作](https://github.com/XTLS/Xray-core/discussions/237)
->>1. 使用此方法可直接使用OpenWrt为游戏机进行加速，无需在内网中再部署其他设备，也无需修改游戏机的LAN配置
->>1. UU加速器就这样死了？
+>>- 这种方法只会改善NAT类型，但并不会改善网络延迟和质量（Xbox网络检测建议网络延迟在60ms以下）
+>>- 可能是由于SSR Plus+中的某种bug，即使指定了数据包编码类型为xudp(xray-core)，SSR Plus+也不会使用xray-core执行VLESS 【待确认】，只会使用v2ray。所以只能手动将v2ray二进制可执行文件替换为xray
+>>- 此种方法应该不局限于VLESS+XTLS（在xRay中支持的其他协议未测试是否可以进行UDP转发来改善NAT类型）
+>>- 关于`代理协议 UDP 全方位透彻解析`请参阅xRay大佬RPRX[力作](https://github.com/XTLS/Xray-core/discussions/237)
+>>- 使用此方法可直接使用OpenWrt为游戏机进行加速，无需在内网中再部署其他设备，也无需修改游戏机的LAN配置
+>>- UU加速器就这样死了？
 
 
