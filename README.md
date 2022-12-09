@@ -2,6 +2,7 @@
 
 1. 在服务器端安装最新版本的xRay: [官方文档](https://github.com/XTLS/Xray-install#readme) 或（[YouTube推荐配置视频](https://www.youtube.com/watch?v=7GHh91AYAmM)）
 1. 配置xRay的代理方式为VLESS over XTLS：[官方配置示例](https://github.com/XTLS/Xray-examples/tree/main/VLESS-TCP-XTLS-WHATEVER) 或（[YouTube推荐配置视频](https://www.youtube.com/watch?v=7GHh91AYAmM)）
+1. 开放服务器端防火墙`UDP 1024-65535端口`
 1. 在OpenWrt端升级xRay-core文件到1.3版本以上（OpenWrt系统-软件包）
 1. 在OpenWrt中停止SSR Plus+服务
 1. 使用SSH以root用户登录OpenWrt
