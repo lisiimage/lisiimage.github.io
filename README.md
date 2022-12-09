@@ -1,4 +1,4 @@
-#使用xRay和OpenWrt SSR Plus+搭建UDP游戏加速器来改善NAT类型
+# 使用xRay和OpenWrt SSR Plus+搭建UDP游戏加速器来改善NAT类型
 
 1. 在服务器端安装最新版本的xRay: [官方文档](https://github.com/XTLS/Xray-install#readme) 或（[YouTube推荐配置视频](https://www.youtube.com/watch?v=7GHh91AYAmM)）
 1. 配置xRay的代理方式为VLESS over XTLS：[官方配置示例](https://github.com/XTLS/Xray-examples/tree/main/VLESS-TCP-XTLS-WHATEVER) 或（[YouTube推荐配置视频](https://www.youtube.com/watch?v=7GHh91AYAmM)）
