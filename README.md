@@ -21,7 +21,7 @@
 
 > 优点：
 >- 使用此方法可直接使用 OpenWrt 作为主路由器为游戏机进行加速，无需在内网中再部署其他设备，也无需修改游戏机的LAN配置
->- 此方法通过了[NatTypeTester](https://github.com/HMBSbige/NatTypeTester)的严格测试
+>- 此方法通过了[ NatTypeTester ](https://github.com/HMBSbige/NatTypeTester)的严格测试
 >- Nintendo switch 和 Xbox 也均测试成功
 >- UU 加速器就这样死了？
 
